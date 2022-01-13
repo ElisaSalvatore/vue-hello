@@ -13,6 +13,11 @@
     
     <div id="app">
         <h1>{{ message }}</h1>
+        
+        <img v-bind:src="image">
+
+        <span>Inserisci il tuo nome: <input v-model="name">Ciao {{ name }}</span>
+
     </div>
 
     <script src="./js/script.js"></script>
